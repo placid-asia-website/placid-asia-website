@@ -1,0 +1,20 @@
+
+{
+  "name": "Placid Asia - Professional Acoustic Solutions",
+  "short_name": "Placid Asia",
+  "description": "Leading supplier of acoustic measurement equipment and sound testing solutions in Asia",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "utilities"]
+}

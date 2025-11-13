@@ -1,0 +1,33 @@
+# Robots.txt for Placid Asia - Professional Acoustic Solutions
+# Updated for optimal SEO performance
+
+# Allow all search engines
+User-agent: *
+Allow: /
+
+# Disallow admin areas
+Disallow: /admin/
+Disallow: /api/
+
+# Disallow private pages
+Disallow: /cart
+
+# Allow specific API routes that are public
+Allow: /api/products
+Allow: /api/categories
+
+# Sitemap location
+Sitemap: https://www.placid.asia/sitemap.xml
+
+# Crawl delay (optional, helps prevent server overload)
+Crawl-delay: 1
+
+# Specific directives for major search engines
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
