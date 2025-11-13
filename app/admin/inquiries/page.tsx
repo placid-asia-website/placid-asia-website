@@ -3,7 +3,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { prisma } from '@/lib/db'
 import { Mail, Phone, Building, Calendar, Package } from 'lucide-react'
-
+import type { ContactInquiry } from '@prisma/client'
 export const dynamic = "force-dynamic"
 
 export default async function AdminInquiriesPage() {
@@ -45,8 +45,8 @@ export default async function AdminInquiriesPage() {
         </Card>
       ) : (
         <div className="space-y-4">
-          {inquiries.map((inquiry) => (
-            <Card key={inquiry.id}>
+{inquiries.map((inquiry: ContactInquiry) => (
+  <Card key={inquiry.id}>
               <CardHeader>
                 <div className="flex justify-between items-start">
                   <div>
