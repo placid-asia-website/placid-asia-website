@@ -6,6 +6,21 @@ import path from 'path'
 
 export const dynamic = 'force-dynamic'
 
+interface ProductData {
+  sku: string
+  title_en: string
+  title_th: string
+  description_en: string
+  description_th: string
+  category: string
+  supplier?: string
+  images: string[]
+  pdfs: string[]
+  has_pricing: boolean
+  source_url?: string
+  featured?: boolean
+}
+
 // Category translations
 const categoryTranslations: Record<string, string> = {
   'Vibration': 'การวัดการสั่นสะเทือน',
@@ -74,11 +89,18 @@ export async function GET(request: NextRequest) {
       }, { status: 500 })
     }
 
-    const productsData = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
+    const productsData: ProductData[] = JSON.parse(fs.readFileSync(dataPath, 'utf8'))
     results.push(`📦 Found ${productsData.length} products in JSON file\n`)
 
     // 3. Create categories
-    const categories = Array.from(new Set(productsData.map((p: any) => p.category).filter((c: any) => c && c.trim())))
+    const categories = Array.from(
+      new Set(
+        productsData
+          .map(p => p.category)
+          .filter((c): c is string => typeof c === 'string' && c.trim().length > 0)
+      )
+    )
+    
     results.push(`🏷️ Creating ${categories.length} categories...`)
 
     for (const categoryName of categories) {
