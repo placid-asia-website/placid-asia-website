@@ -1,3 +1,6 @@
+import { getServerSession } from 'next-auth/next'
+import { authOptions } from '@/lib/auth-config'
+import { redirect } from 'next/navigation'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
 import { prisma } from '@/lib/db'
@@ -6,6 +9,12 @@ import { Mail, Phone, Building, Calendar, Package } from 'lucide-react'
 export const dynamic = "force-dynamic"
 
 export default async function AdminInquiriesPage() {
+  const session = await getServerSession(authOptions)
+
+  if (!session?.user || session.user.role !== 'admin') {
+    redirect('/admin-login')
+  }
+
   const inquiries = await prisma.contactInquiry.findMany({
     orderBy: { createdAt: 'desc' }
   })
