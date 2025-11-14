@@ -184,7 +184,7 @@ export default async function HomePage() {
                           {category.name_th}
                         </p>
                         <p className="text-xs text-muted-foreground">
-                          {category.product_count} products
+                          {category.product_count} {category.product_count === 1 ? 'product' : 'products'}
                         </p>
                       </div>
                       <ArrowRight className="h-5 w-5 text-muted-foreground group-hover:text-blue-600 transition-colors" />
