@@ -65,7 +65,7 @@ export default function ContactPage() {
                     aria-label="Placid Asia Contact Form"
                     frameBorder="0"
                     style={{
-                      height: '750px',
+                      height: '1200px',
                       width: '100%',
                       border: 'none',
                     }}
