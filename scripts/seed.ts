@@ -16,6 +16,8 @@ interface ProductData {
   pdfs: string[]
   has_pricing: boolean
   source_url: string
+  is_active?: boolean
+  supplier?: string
 }
 
 async function main() {
@@ -105,7 +107,8 @@ async function main() {
             pdfs: productData.pdfs || [],
             has_pricing: productData.has_pricing,
             source_url: productData.source_url,
-            active: true
+            supplier: productData.supplier || null,
+            active: productData.is_active !== undefined ? productData.is_active : true
           }
         })
         updatedCount++
@@ -122,7 +125,8 @@ async function main() {
             pdfs: productData.pdfs || [],
             has_pricing: productData.has_pricing,
             source_url: productData.source_url,
-            active: true
+            supplier: productData.supplier || null,
+            active: productData.is_active !== undefined ? productData.is_active : true
           }
         })
         createdCount++
@@ -151,10 +155,10 @@ async function main() {
   })
 
   await prisma.user.upsert({
-    where: { email: 'admin@placid.asia' },
+    where: { email: 'info@placid.asia' },
     update: {},
     create: {
-      email: 'admin@placid.asia',
+      email: 'info@placid.asia',
       password: hashedAdminPassword,
       name: 'Admin User',
       role: 'admin'
