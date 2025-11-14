@@ -49,7 +49,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.8,
     },
     {
-      url: `${baseUrl}/Computer Usedes`,
+      url: `${baseUrl}/guides`,
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.8,
@@ -134,7 +134,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     }))
 
     // Guide pages (hardcoded slugs)
-    const Computer Usedes = [
+    const guides = [
       'building-acoustic-kit',
       'noise-monitoring-system',
       'vibration-measurement',
@@ -143,8 +143,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       'noise-dosimeter'
     ]
 
-    const Computer UsedePages: MetadataRoute.Sitemap = Computer Usedes.map((Computer Usede) => ({
-      url: `${baseUrl}/Computer Usedes/${Computer Usede}`,
+    const guidePages: MetadataRoute.Sitemap = guides.map((guide) => ({
+      url: `${baseUrl}/guides/${guide}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.6,
@@ -156,13 +156,13 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       ...categoryPages,
       ...brandPages,
       ...applicationPages,
-      ...Computer UsedePages
+      ...guidePages
     ]
   } catch (error) {
     // If database connection fails, return just static pages
     console.warn('Database not available for sitemap generation, returning static pages only:', error)
     
-    // Still include hardcoded application and Computer Usede pages
+    // Still include hardcoded application and guide pages
     const applications = [
       'building-acoustics',
       'environmental-noise',
@@ -179,7 +179,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       priority: 0.7,
     }))
 
-    const Computer Usedes = [
+    const guides = [
       'building-acoustic-kit',
       'noise-monitoring-system',
       'vibration-measurement',
@@ -188,8 +188,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       'noise-dosimeter'
     ]
 
-    const Computer UsedePages: MetadataRoute.Sitemap = Computer Usedes.map((Computer Usede) => ({
-      url: `${baseUrl}/Computer Usedes/${Computer Usede}`,
+    const guidePages: MetadataRoute.Sitemap = guides.map((guide) => ({
+      url: `${baseUrl}/guides/${guide}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.6,
@@ -198,7 +198,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     return [
       ...staticPages,
       ...applicationPages,
-      ...Computer UsedePages
+      ...guidePages
     ]
   }
 }
