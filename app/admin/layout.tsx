@@ -6,6 +6,7 @@ import Link from 'next/link'
 import { Button } from '@/components/ui/button'
 import { signOut } from 'next-auth/react'
 import { AdminSignOutButton } from '@/components/admin-signout-button'
+import { headers } from 'next/headers'
 import {
   LayoutDashboard,
   Package,
@@ -45,11 +46,27 @@ export default async function AdminLayout({
 }: {
   children: React.ReactNode
 }) {
-  const session = await getServerSession(authOptions)
-
-  if (!session?.user || session.user.role !== 'admin') {
-    redirect('/admin/login')
+  // Get the current pathname
+  const headersList = headers()
+  const pathname = headersList.get('x-pathname') || headersList.get('referer') || ''
+  
+  // Skip authentication check for login page to prevent redirect loop
+  const isLoginPage = pathname.includes('/admin/login')
+  
+  if (!isLoginPage) {
+    const session = await getServerSession(authOptions)
+    
+    if (!session?.user || session.user.role !== 'admin') {
+      redirect('/admin/login')
+    }
   }
+  
+  // If it's the login page, render without the admin layout wrapper
+  if (isLoginPage) {
+    return <>{children}</>
+  }
+
+  const session = await getServerSession(authOptions)
 
   return (
     <div className="min-h-screen bg-slate-50">
