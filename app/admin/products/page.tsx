@@ -1,3 +1,4 @@
+
 import { getServerSession } from 'next-auth/next'
 import { authOptions } from '@/lib/auth-config'
 import { redirect } from 'next/navigation'
@@ -213,9 +214,11 @@ export default async function AdminProductsPage() {
                             <Button
                               variant="ghost"
                               size="sm"
-                              disabled
+                              asChild
                             >
-                              <Edit className="h-4 w-4" />
+                              <Link href={`/admin/products/${product.sku}/edit`}>
+                                <Edit className="h-4 w-4" />
+                              </Link>
                             </Button>
                             {product.source_url && (
                               <Button
