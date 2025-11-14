@@ -191,9 +191,11 @@ export default async function AdminCategoriesPage() {
                               <Button
                                 variant="ghost"
                                 size="sm"
-                                disabled
+                                asChild
                               >
-                                <Edit className="h-4 w-4" />
+                                <Link href={`/admin/categories/${category.id}/edit`}>
+                                  <Edit className="h-4 w-4" />
+                                </Link>
                               </Button>
                             </div>
                           </td>
