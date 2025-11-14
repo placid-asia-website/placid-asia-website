@@ -96,12 +96,6 @@ export function Footer() {
 
             {/* Newsletter */}
             <div>
-              <h3 className="text-lg font-semibold mb-3">
-                Newsletter
-              </h3>
-              <p className="text-sm text-muted-foreground mb-4">
-                Subscribe to get updates on new products and special offers.
-              </p>
               <NewsletterSignup />
             </div>
           </div>

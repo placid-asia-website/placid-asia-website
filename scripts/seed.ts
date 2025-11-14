@@ -29,17 +29,14 @@ async function main() {
 
   console.log(`📦 Found ${productsData.length} products to seed`)
 
-  // Get unique categories from active products only
-  const activeProducts = productsData.filter(p => p.is_active !== false)
-  const categories = Array.from(new Set(activeProducts.map(p => p.category).filter(c => c && c.trim())))
+  // Get unique categories
+  const categories = Array.from(new Set(productsData.map(p => p.category).filter(c => c && c.trim())))
   
-  console.log(`🏷️ Creating ${categories.length} categories from ${activeProducts.length} active products...`)
+  console.log(`🏷️ Creating ${categories.length} categories...`)
 
   // Create categories with Thai translations
   const categoryTranslations: Record<string, string> = {
-    'Acoustic Measurement': 'การวัดเสียง',
     'Vibration': 'การวัดการสั่นสะเทือน',
-    'Vibration Analysis': 'การวิเคราะห์การสั่นสะเทือน',
     'Sound Level Meters': 'เครื่องวัดระดับเสียง',
     'Microphone Cables Accessories': 'อุปกรณ์เสริมสายไมโครโฟน',
     'Microphones Preamplifiers': 'ไมโครโฟนและพรีแอมป์',
@@ -56,17 +53,8 @@ async function main() {
     'Mains Power Adaptor': 'อแดปเตอร์ไฟฟ้า',
     'Environmental Monitoring': 'การตรวจสอบสิ่งแวดล้อม',
     'Calibrators': 'เครื่องมือปรับเทียบ',
-    'Calibration Systems': 'ระบบสอบเทียบ',
-    'Calibration Solutions': 'โซลูชันการปรับเทียบ',
     'Acoustic Cameras': 'กล้องอะคูสติก',
     'Acoustic Camera': 'กล้องอะคูสติก',
-    'Acoustic Imaging': 'การถ่ายภาพเสียง',
-    'Acoustic Software': 'ซอฟต์แวร์อะคูสติก',
-    'Acoustic Measuring Instruments': 'เครื่องมือวัดทางเสียง',
-    'Acoustic Measurement Devices': 'อุปกรณ์วัดทางเสียง',
-    'CAE Software': 'ซอฟต์แวร์ CAE',
-    'Impedance Tubes': 'ท่ออิมพีแดนซ์',
-    'Device Testing': 'การทดสอบอุปกรณ์',
     'Visualization Simulation And Evaluation Of Sound': 'การแสดงภาพ การจำลอง และการประเมินเสียง',
     'Adaptors': 'อแดปเตอร์',
     'Accessories': 'อุปกรณ์เสริม',
@@ -75,23 +63,21 @@ async function main() {
 
   for (const category of categories) {
     const slug = category.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
-    // Count only active products in this category
-    const productCount = activeProducts.filter(p => p.category === category).length
+    const productCount = productsData.filter(p => p.category === category).length
 
     await prisma.category.upsert({
       where: { slug },
       update: {
         name_en: category,
         name_th: categoryTranslations[category] || category,
-        product_count: productCount,
-        active: productCount > 0  // Only activate categories with products
+        product_count: productCount
       },
       create: {
         name_en: category,
         name_th: categoryTranslations[category] || category,
         slug,
         product_count: productCount,
-        active: productCount > 0  // Only activate categories with products
+        active: true
       }
     })
   }

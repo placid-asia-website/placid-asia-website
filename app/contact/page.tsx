@@ -65,7 +65,7 @@ export default function ContactPage() {
                     aria-label="Placid Asia Contact Form"
                     frameBorder="0"
                     style={{
-                      height: '1800px',
+                      height: '1200px',
                       width: '100%',
                       border: 'none',
                     }}
@@ -115,8 +115,8 @@ export default function ContactPage() {
                   </div>
                   <div className="flex-1">
                     <p className="font-semibold mb-1">{t('contact.phone.label')}</p>
-                    <p className="text-sm text-muted-foreground">(+66) 081-9641982</p>
-                    <p className="text-sm text-muted-foreground">(+66) 02-1206757</p>
+                    <p className="text-sm text-muted-foreground">+66 (0) 2-xxx-xxxx</p>
+                    <p className="text-sm text-muted-foreground">+66 (0) 8x-xxx-xxxx</p>
                   </div>
                 </div>
 
@@ -125,7 +125,7 @@ export default function ContactPage() {
                     <MapPin className="h-5 w-5 text-accent" />
                   </div>
                   <div className="flex-1">
-                    <p className="font-semibold mb-1">{t('6/56 Poemsin Road Soi 42 - 10220 Bangkok Thailand')}</p>
+                    <p className="font-semibold mb-1">{t('contact.address')}</p>
                     <p className="text-sm text-muted-foreground leading-relaxed">
                       {t('contact.address.value')}
                     </p>

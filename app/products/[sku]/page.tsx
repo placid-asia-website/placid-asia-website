@@ -45,7 +45,46 @@ export default async function ProductPage({ params }: ProductPageProps) {
     pdfs: Array.isArray(product.pdfs) ? product.pdfs as string[] : []
   }
 
-  return <ProductDetailClient product={productData} relatedProducts={relatedProducts} />
+  // Product structured data for SEO
+  const structuredData = {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: product.title_en,
+    description: product.description_en,
+    sku: product.sku,
+    brand: {
+      '@type': 'Brand',
+      name: product.supplier || 'Placid Asia'
+    },
+    category: product.category,
+    image: (product.images as string[])[0] || '/og-image.png',
+    offers: product.has_pricing ? {
+      '@type': 'Offer',
+      availability: 'https://schema.org/InStock',
+      priceCurrency: 'THB',
+      seller: {
+        '@type': 'Organization',
+        name: 'Placid Asia'
+      }
+    } : {
+      '@type': 'Offer',
+      availability: 'https://schema.org/PreOrder',
+      seller: {
+        '@type': 'Organization',
+        name: 'Placid Asia'
+      }
+    }
+  };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+      />
+      <ProductDetailClient product={productData} relatedProducts={relatedProducts} />
+    </>
+  )
 }
 
 export async function generateMetadata({ params }: ProductPageProps) {

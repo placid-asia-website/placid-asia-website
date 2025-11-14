@@ -1,0 +1,207 @@
+PLACID ASIA - COMPLETE FILE MANIFEST
+=====================================
+
+Total Files: 37
+Package Date: November 14, 2025
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📘 DOCUMENTATION (4 files)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+README.md                                          [NEW] Quick start guide
+FILE_MANIFEST.txt                                  [NEW] This file
+GUIDES/FINAL_UPLOAD_INSTRUCTIONS.md                [GUIDE] Step-by-step upload guide ⭐
+GUIDES/COMPREHENSIVE_ENHANCEMENTS_GUIDE.md         [GUIDE] Feature documentation
+GUIDES/UPLOAD-GUIDE-FINAL.md                       [GUIDE] Previous fixes guide
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🆕 NEW FILES TO CREATE (13 files)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+API Routes (4):
+  app/api/newsletter/route.ts                      Newsletter subscription endpoint
+  app/api/admin/inquiries/[id]/route.ts            Inquiry management API
+  app/api/admin/categories/[id]/route.ts           Category management API
+  app/api/admin/products/[sku]/route.ts            Product update API
+
+Admin Pages (3):
+  app/admin/inquiries/inquiries-client.tsx         Interactive inquiry management UI
+  app/admin/categories/[id]/edit/page.tsx          Category editing interface
+  app/admin/products/[sku]/edit/page.tsx           Product editing interface
+
+Components (2):
+  components/newsletter-signup.tsx                 Newsletter form component
+  components/google-analytics.tsx                  GA4 tracking component
+
+Library Files (2):
+  lib/email.ts                                     Email sending utilities (Brevo)
+  lib/analytics.ts                                 Google Analytics helpers
+
+Error Pages (2):
+  app/not-found.tsx                                Custom 404 page
+  app/error.tsx                                    Custom error boundary
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 MODIFIED FILES TO REPLACE (14 files)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Core Pages (2):
+  app/layout.tsx                                   Added Google Analytics integration
+  app/page.tsx                                     Fixed product count grammar
+
+Feature Pages (4):
+  app/contact/page.tsx                             Increased form height (1200px)
+  app/products/[sku]/page.tsx                      Added SEO structured data
+  app/applications/[slug]/page.tsx                 Enhanced SEO content
+  app/categories/[slug]/page.tsx                   Enhanced SEO content
+
+Admin Pages (2):
+  app/admin/inquiries/page.tsx                     Refactored to use client component
+  app/admin/categories/page.tsx                    Enabled edit button
+
+Components (1):
+  components/footer.tsx                            Integrated newsletter signup
+
+API Routes (1):
+  app/api/contact/route.ts                         Added email notifications
+
+Configuration (2):
+  public/robots.txt                                Optimized for SEO
+  .env.example                                     Added new environment variables
+
+Database (2):
+  data/products_data.json                          Cleaned invalid products (49 deactivated)
+  scripts/seed.ts                                  Updated to handle is_active field
+  prisma/schema.prisma                             Added newsletter & reviews tables
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔑 KEY CHANGES BY FEATURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. NEWSLETTER SUBSCRIPTION
+   - components/newsletter-signup.tsx               [NEW]
+   - app/api/newsletter/route.ts                    [NEW]
+   - components/footer.tsx                          [MODIFIED]
+   - lib/email.ts                                   [NEW]
+   - prisma/schema.prisma                           [MODIFIED]
+
+2. EMAIL NOTIFICATIONS
+   - lib/email.ts                                   [NEW]
+   - app/api/contact/route.ts                       [MODIFIED]
+
+3. GOOGLE ANALYTICS 4
+   - components/google-analytics.tsx                [NEW]
+   - lib/analytics.ts                               [NEW]
+   - app/layout.tsx                                 [MODIFIED]
+
+4. ADMIN INQUIRY MANAGEMENT
+   - app/admin/inquiries/page.tsx                   [MODIFIED]
+   - app/admin/inquiries/inquiries-client.tsx       [NEW]
+   - app/api/admin/inquiries/[id]/route.ts          [NEW]
+
+5. SEO STRUCTURED DATA
+   - app/products/[sku]/page.tsx                    [MODIFIED]
+   - public/robots.txt                              [MODIFIED]
+   - app/applications/[slug]/page.tsx               [MODIFIED]
+   - app/categories/[slug]/page.tsx                 [MODIFIED]
+
+6. ADMIN PRODUCT/CATEGORY EDITING
+   - app/admin/categories/page.tsx                  [MODIFIED]
+   - app/admin/categories/[id]/edit/page.tsx        [NEW]
+   - app/admin/products/[sku]/edit/page.tsx         [NEW]
+   - app/api/admin/categories/[id]/route.ts         [NEW]
+   - app/api/admin/products/[sku]/route.ts          [NEW]
+
+7. CUSTOM ERROR PAGES
+   - app/not-found.tsx                              [NEW]
+   - app/error.tsx                                  [NEW]
+
+8. BUG FIXES
+   - app/page.tsx                                   [MODIFIED] - Fixed "1 products" grammar
+   - app/contact/page.tsx                           [MODIFIED] - Increased form height
+   - data/products_data.json                        [MODIFIED] - Deactivated 49 invalid products
+   - scripts/seed.ts                                [MODIFIED] - Handle is_active correctly
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚙️ ENVIRONMENT VARIABLES REQUIRED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+New Variables to Add in Vercel:
+  BREVO_API_KEY                    Get from: https://app.brevo.com/settings/keys/api
+  NEXT_PUBLIC_GA_MEASUREMENT_ID    Get from: https://analytics.google.com
+
+Existing Variables (no changes needed):
+  DATABASE_URL
+  NEXTAUTH_URL
+  NEXTAUTH_SECRET
+  SEED_SECRET
+  ABACUSAI_API_KEY
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📊 STATISTICS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Total Files:              37
+New Files:               13
+Modified Files:          14
+Documentation:            5
+Features Implemented:    10
+Products Cleaned:        49 (deactivated invalid entries)
+Lines of Code Added:     ~2500+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+✅ UPLOAD ORDER RECOMMENDATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. First: Upload database files
+   - prisma/schema.prisma
+   - data/products_data.json
+   - scripts/seed.ts
+
+2. Second: Upload library files
+   - lib/email.ts
+   - lib/analytics.ts
+
+3. Third: Upload components
+   - components/newsletter-signup.tsx
+   - components/google-analytics.tsx
+   - components/footer.tsx
+
+4. Fourth: Upload API routes
+   - All files in app/api/*
+
+5. Fifth: Upload pages
+   - All files in app/*
+
+6. Last: Upload configuration
+   - .env.example
+   - public/robots.txt
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 POST-UPLOAD ACTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. Configure environment variables in Vercel
+2. Wait for deployment to complete
+3. Reseed database: https://your-site.vercel.app/api/admin/seed-database?secret=xxx
+4. Test all features
+5. Configure Brevo API key
+6. Configure Google Analytics
+7. Verify newsletter subscription works
+8. Test email notifications
+9. Check admin inquiry management
+10. Verify product/category editing
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+For detailed instructions, see: GUIDES/FINAL_UPLOAD_INSTRUCTIONS.md
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━

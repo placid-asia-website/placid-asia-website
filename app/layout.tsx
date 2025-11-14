@@ -9,6 +9,7 @@ import { Footer } from '@/components/footer'
 import { Providers } from '@/components/providers'
 import { Toaster } from '@/components/ui/toaster'
 import { Chatbot } from '@/components/chatbot'
+import { GoogleAnalytics } from '@/components/google-analytics'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -153,6 +154,7 @@ export default function RootLayout({
         />
       </head>
       <body className={inter.className} suppressHydrationWarning>
+        <GoogleAnalytics measurementId={process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID || ''} />
         <Providers>
           <div className="min-h-screen flex flex-col">
             <Header />
