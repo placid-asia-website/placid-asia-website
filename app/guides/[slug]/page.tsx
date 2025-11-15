@@ -317,6 +317,157 @@ const guideContent: Record<string, any> = {
 
     relatedProducts: ['noise monitor', 'environmental', 'outdoor', 'terminal'],
   },
+  
+  'sound-intensity-measurement': {
+    title: 'Sound Intensity Measurement - Complete Guide',
+    title_th: 'คู่มือการวัดความเข้มเสียง',
+    readTime: '15 min read',
+    level: 'Advanced',
+    lastUpdated: 'November 2025',
+    
+    introduction: {
+      text: 'Sound intensity measurement is a powerful technique that allows engineers and acousticians to measure both the magnitude and direction of sound energy flow. Unlike traditional sound pressure measurements, intensity probes can determine sound power in situ, identify noise sources in complex environments, and work effectively even in the presence of high background noise.',
+      text_th: 'การวัดความเข้มเสียงเป็นเทคนิคที่ทรงพลังที่ช่วยให้วิศวกรและนักอะคูสติกวัดทั้งขนาดและทิศทางของการไหลของพลังงานเสียง ต่างจากการวัดความดันเสียงแบบดั้งเดิม เครื่องวัดความเข้มสามารถกำหนดกำลังเสียงในสถานที่ ระบุแหล่งกำเนิดเสียงรบกวนในสภาพแวดล้อมที่ซับซ้อน และทำงานได้อย่างมีประสิทธิภาพแม้ในที่ที่มีเสียงพื้นหลังสูง',
+    },
+
+    keyMeasurements: [
+      {
+        title: 'Sound Power Determination',
+        description: 'Measure sound power of machinery and equipment in situ without requiring special test facilities',
+        standard: 'ISO 9614-1, ISO 9614-2, ISO 9614-3',
+      },
+      {
+        title: 'Noise Source Identification',
+        description: 'Pinpoint specific noise sources on complex machinery by mapping sound intensity distribution',
+        standard: 'ISO 9614-2',
+      },
+      {
+        title: 'Noise Path Analysis',
+        description: 'Identify dominant transmission paths in vehicles, buildings, and industrial equipment',
+        standard: 'ISO 9614',
+      },
+      {
+        title: 'Transmission Loss Measurement',
+        description: 'Evaluate sound insulation performance of panels, partitions, and enclosures',
+        standard: 'ASTM E2249',
+      },
+    ],
+
+    essentialEquipment: [
+      {
+        item: 'Sound Intensity Probe',
+        details: 'Two-microphone probe with precise phase matching and calibrated spacer (typically 6mm, 12mm, 50mm spacers)',
+        priority: 'Essential',
+      },
+      {
+        item: 'Sound Intensity Analyzer',
+        details: 'Real-time dual-channel FFT analyzer with intensity processing algorithms',
+        priority: 'Essential',
+      },
+      {
+        item: 'Intensity Calibrator',
+        details: 'Specialized calibrator for verifying probe phase match and pressure-intensity index',
+        priority: 'Essential',
+      },
+      {
+        item: 'Measurement Software',
+        details: 'Software for intensity mapping, sound power calculation, and data visualization',
+        priority: 'Highly Recommended',
+      },
+      {
+        item: 'Positioning System',
+        details: 'Mechanical scanning frame or robotic arm for automated measurements (optional but valuable)',
+        priority: 'Optional',
+      },
+    ],
+
+    budgetOptions: [
+      {
+        tier: 'Entry System ($15,000 - $25,000)',
+        includes: [
+          'Basic intensity probe with one spacer',
+          'Two-channel FFT analyzer',
+          'Intensity calibrator',
+          'Basic software',
+        ],
+        suitable: 'Occasional sound power measurements, educational purposes',
+      },
+      {
+        tier: 'Professional System ($30,000 - $50,000)',
+        includes: [
+          'Precision intensity probe with multiple spacers',
+          'Advanced real-time analyzer',
+          'Professional calibrator',
+          'Comprehensive software with mapping',
+          'Accessories and carrying case',
+        ],
+        suitable: 'Regular consultancy work, R&D testing, product development',
+      },
+      {
+        tier: 'Advanced System ($60,000+)',
+        includes: [
+          'Multi-probe capability',
+          'Automated scanning system',
+          'Integration with acoustic cameras',
+          'Advanced visualization software',
+          'Complete accessory set',
+        ],
+        suitable: 'Research institutions, automotive NVH, aerospace applications',
+      },
+    ],
+
+    selectionCriteria: [
+      {
+        criterion: 'Frequency Range',
+        consideration: 'Spacer selection crucial: 6mm for high freq (up to 6.3kHz), 12mm for mid freq (up to 3.15kHz), 50mm for low freq (down to 50Hz)',
+      },
+      {
+        criterion: 'Phase Match',
+        consideration: 'Microphone phase match must be within 0.2° - regular calibration essential for accuracy',
+      },
+      {
+        criterion: 'Pressure-Intensity Index',
+        consideration: 'Indicates measurement quality - should be < 7 dB for valid results, challenging in reverberant fields',
+      },
+      {
+        criterion: 'Scanning Technique',
+        consideration: 'Manual scanning requires skilled operator - automated systems ensure repeatability and reduce fatigue',
+      },
+      {
+        criterion: 'Background Noise',
+        consideration: 'Intensity method works well with high background noise - major advantage over sound pressure methods',
+      },
+    ],
+
+    commonMistakes: [
+      'Using incorrect spacer for measurement frequency range',
+      'Failing to verify phase match before measurements',
+      'Ignoring pressure-intensity index warnings',
+      'Improper scanning speed and technique',
+      'Inadequate measurement surface definition',
+      'Not accounting for reactive intensity near sources',
+    ],
+
+    tips: [
+      'Ensure analyzer has true intensity processing (not just simultaneous pressure measurement)',
+      'Check microphone phase matching specifications - critical for accuracy',
+      'Consider frequency range requirements before selecting spacer set',
+      'Evaluate software capabilities for mapping and visualization',
+      'Budget for regular calibration services and microphone maintenance',
+      'Consider training requirements - intensity measurement requires skill',
+    ],
+
+    nextSteps: [
+      'Define specific applications (sound power, source identification, etc.)',
+      'Determine required frequency range for measurements',
+      'Assess need for automated vs. manual scanning',
+      'Budget for equipment, training, and ongoing calibration',
+      'Review applicable standards (ISO 9614 series, ASTM E2249)',
+      'Request demonstration from suppliers',
+    ],
+
+    relatedProducts: ['intensity probe', 'microphone', 'analyzer', 'vibration'],
+  },
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
