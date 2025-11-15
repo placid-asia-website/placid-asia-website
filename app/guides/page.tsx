@@ -73,11 +73,22 @@ const guides = [
     title: 'Material Testing Equipment - Selection Guide',
     title_th: 'คู่มือการเลือกอุปกรณ์ทดสอบวัสดุ',
     description: 'How to choose impedance tubes, reverberation rooms, and transmission loss equipment for material characterization.',
-    description_th: 'วิธีเลือกท่อวัดอิมพีแดนซ์ ห้องสะท้อนเสียง และอุปกรณ์การสูญเสียการส่งผ่านสำหรับการจำแนกลักษณะวัสดุ',
+    description_th: 'วิธีเลือกท่อวัดอิมพีแดนซ์ ห้องสะท้อนเสียง และอุปกรณ์การสูญเสียการส่งผ่านสำหรับการจำแนดลักษณะวัสดุ',
     readTime: '10 min read',
     level: 'Intermediate',
     category: 'Material Testing',
     image: '/guides/material-testing.jpg',
+  },
+  {
+    slug: 'sound-intensity-measurement',
+    title: 'Sound Intensity Measurement - Complete Guide',
+    title_th: 'คู่มือการวัดความเข้มเสียง',
+    description: 'Comprehensive guide to sound intensity measurement techniques, equipment selection, and applications for noise source identification and sound power determination.',
+    description_th: 'คู่มือฉบับสมบูรณ์สำหรับเทคนิคการวัดความเข้มเสียง การเลือกอุปกรณ์ และการใช้งานสำหรับการระบุแหล่งกำเนิดเสียงรบกวนและการกำหนดกำลังเสียง',
+    readTime: '15 min read',
+    level: 'Advanced',
+    category: 'Advanced Measurement',
+    image: '/guides/sound-intensity.jpg',
   },
 ];
 
