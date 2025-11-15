@@ -39,7 +39,7 @@ export default async function AdminCategoriesPage() {
     select: { category: true },
   })
 
-  const categoryCounts = products.reduce((acc: Record<string, number>, product) => {
+  const categoryCounts = products.reduce((acc: Record<string, number>, product: { category: string | null }) => {
     if (product.category) {
       acc[product.category] = (acc[product.category] || 0) + 1
     }
