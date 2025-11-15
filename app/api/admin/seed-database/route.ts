@@ -19,6 +19,7 @@ interface ProductData {
   has_pricing: boolean
   source_url: string
   supplier?: string
+  is_active?: boolean
 }
 
 export async function POST(request: Request) {
@@ -90,10 +91,16 @@ export async function POST(request: Request) {
 
     // Create products
     let productsCreated = 0
+    let activeProducts = 0
     for (const product of productsData) {
+      const isActive = product.is_active !== false // Default to true if not specified
+      
       await prisma.product.upsert({
         where: { sku: product.sku },
-        update: {},
+        update: {
+          active: isActive,
+          supplier: product.supplier || null,
+        },
         create: {
           sku: product.sku,
           title_en: product.title_en,
@@ -107,14 +114,15 @@ export async function POST(request: Request) {
           has_pricing: product.has_pricing || false,
           source_url: product.source_url || null,
           featured: false,
-          active: true,
+          active: isActive,
         },
       })
       productsCreated++
+      if (isActive) activeProducts++
       
       // Log progress every 10 products
       if (productsCreated % 10 === 0) {
-        console.log(`  Progress: ${productsCreated}/${productsData.length} products`)
+        console.log(`  Progress: ${productsCreated}/${productsData.length} products (${activeProducts} active)`)
       }
     }
 
@@ -140,10 +148,10 @@ export async function POST(request: Request) {
     const hashedPassword = await bcrypt.hash('admin123', 10)
     
     await prisma.user.upsert({
-      where: { email: 'admin@placid.asia' },
+      where: { email: 'info@placid.asia' },
       update: {},
       create: {
-        email: 'admin@placid.asia',
+        email: 'info@placid.asia',
         name: 'Admin User',
         password: hashedPassword,
         role: 'admin',
@@ -170,6 +178,8 @@ export async function POST(request: Request) {
       stats: {
         categoriesCreated,
         productsCreated,
+        activeProducts,
+        inactiveProducts: productsCreated - activeProducts,
         adminUsersCreated: 2,
       },
     })
