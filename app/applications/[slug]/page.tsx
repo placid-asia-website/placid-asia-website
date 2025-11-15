@@ -29,7 +29,7 @@ const applicationData: Record<string, {
     description_th: 'บริการทดสอบและให้คำปรึกษาด้านอะคูสติกอาคารอย่างครอบคลุมสำหรับโครงการที่พักอาศัย อาคารพาณิชย์ และอุตสาหกรรมการต้อนรับ ทีมผู้เชี่ยวชาญของเราให้บริการวัดฉนวนกันเสียง วิเคราะห์อะคูสติกห้อง ทดสอบผนังด้านหน้า และตรวจสอบความสอดคล้องเพื่อให้เป็นไปตามมาตรฐานสากล เราช่วยสถาปนิก นักพัฒนา และผู้รับเหมาส่งมอบพื้นที่ที่สะดวกสบายทางอะคูสติกซึ่งเกินข้อกำหนดด้านกฎระเบียบ',
     applications: ['Airborne sound insulation testing (walls, floors, partitions)', 'Impact sound insulation measurement (footfall noise)', 'Facade sound insulation (traffic & aircraft noise)', 'Reverberation time measurement (speech clarity)', 'Room acoustics optimization'],
     color: 'from-blue-500 to-blue-600',
-    keywords: ['sound insulation', 'building acoustics', 'airborne noise', 'impact sound', 'reverberation', 'facade testing', 'acoustic compliance', 'residential acoustics', 'hotel acoustics', 'apartment sound testing'],
+    keywords: ['sound insulation', 'building acoustics', 'airborne noise', 'impact sound', 'reverberation', 'facade testing', 'acoustic compliance', 'residential acoustics', 'hotel acoustics', 'apartment sound testing', 'tapping machine', 'dodecahedron', 'sound source', 'sound level meter', 'building', 'room acoustics', 'construction'],
     standards: ['ISO 16283-1/2/3', 'ISO 3382-1/2/3', 'ASTM E90', 'ASTM E492', 'ASTM E336', 'BS 8233', 'WHO Guidelines'],
     benefits: [
       'Ensure full compliance with local and international building acoustics regulations',
@@ -49,7 +49,7 @@ const applicationData: Record<string, {
     description_th: 'โซลูชันการตรวจสอบเสียงรบกวนสิ่งแวดล้อมแบบต่อเนื่องและระยะยาวขั้นสูงสำหรับสนามบิน ทางหลวง ไซต์ก่อสร้าง สถานประกอบการอุตสาหกรรม และการพัฒนาเมือง ระบบตรวจสอบอัตโนมัติของเราให้ข้อมูลเสียงแบบเรียลไทม์ตลอด 24/7 รายงานการปฏิบัติตามข้อกำหนด และการแจ้งเตือนล่วงหน้าแก่หน่วยงานกำกับดูแลและผู้มีส่วนได้ส่วนเสียในชุมชน เครื่องวัดระดับเสียง Class 1 พร้อมเทอร์มินัลกลางแจ้งที่ทนฝนทนแดดรับประกันการวัดที่แม่นยำในทุกสภาพ',
     applications: ['Airport noise monitoring and flight path tracking', 'Highway and traffic noise assessment', 'Construction site noise compliance', 'Industrial facility boundary monitoring', 'Community noise complaint validation', 'Wind farm noise assessment', 'Railway noise monitoring'],
     color: 'from-green-500 to-green-600',
-    keywords: ['environmental noise', 'noise monitoring', 'traffic noise', 'airport noise', 'community noise', 'continuous monitoring', 'noise mapping', 'long-term monitoring', 'noise compliance', 'automated monitoring'],
+    keywords: ['environmental noise', 'noise monitoring', 'traffic noise', 'airport noise', 'community noise', 'continuous monitoring', 'noise mapping', 'long-term monitoring', 'noise compliance', 'automated monitoring', 'sound level meter', 'outdoor', 'environmental', 'terminal', 'noise monitor', 'weather', 'monitoring station'],
     standards: ['IEC 61672-1', 'ISO 1996-1/2', 'ISO 20906', 'EU END Directive', 'WHO Noise Guidelines', 'Thai Pollution Control Department Standards'],
     benefits: [
       '24/7 automated real-time noise level monitoring with web-based dashboard access',
@@ -69,7 +69,7 @@ const applicationData: Record<string, {
     description_th: 'บริการวัด วิเคราะห์ และทดสอบการสั่นสะเทือนที่สมบูรณ์สำหรับพลศาสตร์โครงสร้าง การวินิจฉัยเครื่องจักร และโปรแกรมการบำรุงรักษาเชิงป้องกัน โซลูชันของเรารวมถึงการวิเคราะห์โมดอล การทดสอบรูปร่างการเสียรูประหว่างการทำงาน (ODS) การตรวจสอบสภาพเครื่องจักร และการประเมินการสัมผัสของมนุษย์ ระบบรับข้อมูลหลายช่องขั้นสูงพร้อมเซ็นเซอร์วัดความเร่งความแม่นยำสูงและซอฟต์แวร์วิเคราะห์ที่ซับซ้อนช่วยให้วิศวกรเพิ่มประสิทธิภาพการออกแบบ คาดการณ์ความล้มเหลว และรับประกันการปฏิบัติตามความปลอดภัย',
     applications: ['Modal testing and FRF measurements', 'Operating deflection shapes (ODS) visualization', 'Rotating machinery vibration diagnostics', 'Structural health monitoring (SHM)', 'Human whole-body vibration exposure', 'Hand-arm vibration assessment', 'Product vibration testing', 'Seismic vibration monitoring'],
     color: 'from-purple-500 to-purple-600',
-    keywords: ['vibration', 'modal analysis', 'structural dynamics', 'condition monitoring', 'ODS', 'machinery diagnostics', 'predictive maintenance', 'accelerometer', 'frequency response', 'resonance testing'],
+    keywords: ['vibration', 'modal analysis', 'structural dynamics', 'condition monitoring', 'ODS', 'machinery diagnostics', 'predictive maintenance', 'accelerometer', 'frequency response', 'resonance testing', 'vibration meter', 'analyzer', 'shaker', 'sensor', 'transducer', 'structural', 'machinery'],
     standards: ['ISO 2631-1/2', 'ISO 5349-1/2', 'ISO 10816-1 to 7', 'ISO 7626', 'ISO 20816', 'VDI 2056', 'DIN 4150-3'],
     benefits: [
       'Predict equipment failures through early detection of abnormal vibration patterns',
