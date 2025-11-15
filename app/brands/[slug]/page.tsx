@@ -121,12 +121,6 @@ const brandInfo: Record<string, {
     specialization_en: 'Real-time Monitoring, Compliance, Noise Tracking',
     specialization_th: 'การตรวจสอบแบบเรียลไทม์ การปฏิบัติตาม การติดตามเสียงรบกวน',
   },
-  'norsonic-soundtec': {
-    description_en: 'Combined premium acoustic and vibration measurement equipment from Norsonic and Soundtec.',
-    description_th: 'อุปกรณ์วัดเสียงและการสั่นสะเทือนระดับพรีเมียมจาก Norsonic และ Soundtec',
-    specialization_en: 'Complete Acoustic Solutions, Building Testing, Environmental Monitoring',
-    specialization_th: 'โซลูชันอะคูสติกที่สมบูรณ์ การทดสอบอาคาร การตรวจสอบสิ่งแวดล้อม',
-  },
 };
 
 export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
@@ -143,8 +137,27 @@ export async function generateMetadata({ params }: { params: { slug: string } })
 export default async function BrandDetailPage({ params }: { params: { slug: string } }) {
   const decodedSlug = decodeURIComponent(params.slug);
   
-  // Convert slug to supplier name (handle both formats)
-  let supplierName = decodedSlug.split('-').map(word => 
+  // Map of slug to supplier name variations
+  const slugToSupplierMap: Record<string, string> = {
+    'norsonic': 'Norsonic',
+    'soundtec': 'Soundtec',
+    'spektra-dresden': 'SPEKTRA Dresden',
+    'placid-instruments': 'Placid Instruments',
+    'aps-dynamics': 'APS Dynamics',
+    'profound': 'Profound',
+    'convergence-instruments': 'Convergence Instruments',
+    'bedrock-elite': 'Bedrock Elite',
+    'soundplan': 'SoundPLAN',
+    'sarooma': 'Sarooma',
+    'dbsea': 'dBSea',
+    'femtools': 'FEMtools',
+    'soundinsight': 'Soundinsight',
+    'sound-of-numbers': 'Sound of Numbers',
+    'spotnoise': 'SpotNoise',
+  };
+
+  // Get supplier name from mapping or convert slug
+  let supplierName = slugToSupplierMap[decodedSlug] || decodedSlug.split('-').map(word => 
     word.charAt(0).toUpperCase() + word.slice(1)
   ).join(' ');
 
@@ -155,21 +168,6 @@ export default async function BrandDetailPage({ params }: { params: { slug: stri
       supplier: supplierName,
     },
   });
-
-  // If no products found and slug is 'norsonic-soundtec', get products with null supplier
-  if (products.length === 0 && decodedSlug === 'norsonic-soundtec') {
-    products = await prisma.product.findMany({
-      where: {
-        active: true,
-        OR: [
-          { supplier: null },
-          { supplier: 'Norsonic' },
-          { supplier: 'Soundtec' },
-        ],
-      },
-    });
-    supplierName = 'Norsonic/Soundtec';
-  }
 
   if (products.length === 0) {
     notFound();
