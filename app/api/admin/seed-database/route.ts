@@ -19,7 +19,6 @@ interface ProductData {
   has_pricing: boolean
   source_url: string
   supplier?: string
-  is_active?: boolean
 }
 
 export async function POST(request: Request) {
@@ -91,16 +90,10 @@ export async function POST(request: Request) {
 
     // Create products
     let productsCreated = 0
-    let activeProducts = 0
     for (const product of productsData) {
-      const isActive = product.is_active !== false // Default to true if not specified
-      
       await prisma.product.upsert({
         where: { sku: product.sku },
-        update: {
-          active: isActive,
-          supplier: product.supplier || null,
-        },
+        update: {},
         create: {
           sku: product.sku,
           title_en: product.title_en,
@@ -114,15 +107,14 @@ export async function POST(request: Request) {
           has_pricing: product.has_pricing || false,
           source_url: product.source_url || null,
           featured: false,
-          active: isActive,
+          active: true,
         },
       })
       productsCreated++
-      if (isActive) activeProducts++
       
       // Log progress every 10 products
       if (productsCreated % 10 === 0) {
-        console.log(`  Progress: ${productsCreated}/${productsData.length} products (${activeProducts} active)`)
+        console.log(`  Progress: ${productsCreated}/${productsData.length} products`)
       }
     }
 
@@ -178,8 +170,6 @@ export async function POST(request: Request) {
       stats: {
         categoriesCreated,
         productsCreated,
-        activeProducts,
-        inactiveProducts: productsCreated - activeProducts,
         adminUsersCreated: 2,
       },
     })
