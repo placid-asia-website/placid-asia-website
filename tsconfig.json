@@ -1,3 +1,4 @@
+
 {
   "compilerOptions": {
     "target": "es2020",
@@ -37,6 +38,13 @@
     ".build/types/**/*.ts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "GUIDES",
+    "Uploads",
+    "**/*.backup.*",
+    "**/*-REFERENCE.*",
+    "**/*-UPLOAD.*",
+    "**/*-FIXED.*",
+    "**/*-FINAL.*"
   ]
 }
