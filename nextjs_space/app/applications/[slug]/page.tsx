@@ -311,7 +311,7 @@ export default async function ApplicationDetailPage({ params }: { params: { slug
   });
 
   // Filter products based on application keywords or category with improved matching
-  let filteredProducts = products.filter((product) => {
+  let filteredProducts = products.filter((product: any) => {
     const lowerTitle = (product.title_en || '').toLowerCase();
     const lowerDesc = (product.description_en || '').toLowerCase();
     const lowerCategory = (product.category || '').toLowerCase();
