@@ -435,7 +435,7 @@ export default async function ApplicationDetailPage({ params }: { params: { slug
   // Apply specific sorting for certain applications
   if (decodedSlug === 'quality-control') {
     // Quality Control: NoiseQC first, then Nor848B
-    filteredProducts.sort((a, b) => {
+    filteredProducts.sort((a: any, b: any) => {
       const titleA = a.title_en.toLowerCase();
       const titleB = b.title_en.toLowerCase();
       
