@@ -1,0 +1,229 @@
+SKU,Title (English),Title (Thai),Current Category,Supplier,Featured
+APS-APS-125,APS 125,เครื่องมือ APS 125,Accelerometers,APS Dynamics,No
+APS-APS-145,APS 145,เครื่องมือ APS 145,Accelerometers,APS Dynamics,No
+APS-APS-420,APS 420,เครื่องมือ APS 420,Accelerometers,APS Dynamics,No
+APS-MODEL-113-ACCELEROMETER,Model 113 Low Frequency Accelerometer,เซ็นเซอร์วัดความเร่ง Model 113 ความถี่ต่ำ,Accelerometers,APS Dynamics,No
+APS-MODEL-125-ACCELEROMETER,Model 125 General Purpose Accelerometer,เซ็นเซอร์วัดความเร่ง Model 125 ใช้งานทั่วไป,Accelerometers,APS Dynamics,No
+APS-MODEL-420-TRIAXIAL,Model 420 Triaxial Accelerometer,เซ็นเซอร์วัดความเร่งแกน 3 แกน Model 420,Accelerometers,APS Dynamics,No
+NOR1270,Nor1270 General purpose single axis accelerometer,Nor1270 เครื่องวัดความเร่งแกนเดียววัตถุประสงค์ทั่วไป,Accelerometers,Norsonic,No
+NOR1286,Nor1286 Triaxial seat pad accelerometer,Nor1286 เครื่องวัดความเร่งเบาะนั่งแบบสามแกน,Accelerometers,Norsonic,No
+NOR1287,Nor1287 Triaxial miniature accelerometer,Nor1287 เครื่องวัดความเร่งขนาดเล็กแบบสามแกน,Accelerometers,Norsonic,No
+NOR1291,Nor1291 Handle adaptor plate for triaxial accelerometer Nor1287,Nor1291 แผ่นอะแดปเตอร์ด้ามจับสำหรับเครื่องวัดความเร่งแบบสามแกน Nor1287,Accelerometers,Norsonic,No
+PLV-3010,PLV-3010 Triaxial Accelerometer,PLV-3010 Triaxial เครื่องวัดความเร่ง,Accelerometers,Placid Instruments,No
+PLV-356A15,PLV-356A15 Accelerometer,PLV-356A15 เครื่องวัดความเร่ง,Accelerometers,Placid Instruments,No
+PLACID-CA-01,CA-01 - Calibrators,เครื่องปรับเทียบ CA-01 - Calibrators,Acoustic Calibrators,Placid Instruments,No
+CA-01,CA-01 Sound Calibrator,CA-01 เสียง เครื่องสอบเทียบ,Acoustic Calibrators,Placid Instruments,No
+PLACID-CA-02,CA-02 - Calibrators,เครื่องปรับเทียบ CA-02 - Calibrators,Acoustic Calibrators,Placid Instruments,No
+NOR1255,Nor1255 Sound Calibrator,เครื่องปรับเทียบเสียง Nor1255,Acoustic Calibrators,Norsonic,No
+NOR1256,Nor1256 Sound Calibrator,เครื่องปรับเทียบเสียง Nor1256,Acoustic Calibrators,Norsonic,No
+SOUND-CALIBRATOR,Sound Calibrator CA-02,เสียง เครื่องสอบเทียบ CA-02,Acoustic Calibrators,Placid Instruments,No
+ACOUSTIC-CAMERAS,Acoustic Cameras,กล้องอะคูสติก,Acoustic Cameras,Soundtec,No
+ACOUSTIC-CAMERA-FOR-THE-VISUALIZATION-OF-SOUND-SOU,Acoustic camera for the visualization of sound sources in a certain distance,กล้องอะคูสติกสำหรับการแสดงภาพแหล่งกำเนิดเสียงในระยะที่กำหนด,Acoustic Cameras,Soundtec,No
+ACOUSTIC-CAMERA-TO-MEASURE-THE-SOUND-INTENSITY-DIR,Acoustic camera to measure the sound intensity directly in the near field,กล้องอะคูสติกเพื่อวัดความเข้มของเสียงโดยตรงในสนามใกล้,Acoustic Cameras,Soundtec,No
+NOR848B,Nor848B Acoustic camera,กล้องเก็บเสียง Nor848B,Acoustic Cameras,Norsonic,No
+HEMISPHERE,Hemisphere Array Kit,Hemisphere อาร์เรย์ Kit,Acoustic Material Testing,Placid Instruments,No
+HEMISPHERE-KITS,Hemisphere Array for sound power measurement iso3744 or iso3745,Hemisphere อาร์เรย์ for เสียง power การวัด iso3744 or iso3745,Acoustic Material Testing,Placid Instruments,No
+IMPEDANCE,Impedance Tube Kit,Impedance Tube Kit - อุปกรณ์วัดและทดสอบ,Acoustic Material Testing,Placid Instruments,No
+IMPEDANCE-TUBE,"Impedance tube, Kundt’s tube, sound absorption and transmission loss","Impedance tube, Kundt’s tube, เสียง absorption and transmission loss",Acoustic Material Testing,Placid Instruments,No
+NOR1517A,Nor1517A Airflow resistance measurement system,Nor1517A ระบบวัดความต้านทานการไหลของอากาศ,Acoustic Material Testing,Norsonic,No
+NOR1527,Nor1527 Impedance Tube,ท่ออิมพีแดนซ์ Nor1527,Acoustic Material Testing,Norsonic,No
+SPEKTRA-S-TEST-FAB,S-TEST Fab,เครื่องมือ S-TEST Fab,Acoustic Material Testing,SPEKTRA Dresden,No
+SPEKTRA-S-TEST-LAB,S-TEST Lab,เครื่องมือ S-TEST Lab,Acoustic Material Testing,SPEKTRA Dresden,No
+PROFOUND-SIT-SERIES,SIT Series,เครื่องมือ SIT Series,Acoustic Material Testing,Profound,No
+SOUNDINSIGHT-SONOCAT,Sonocat,เครื่องมือ Sonocat,Acoustic Material Testing,Soundinsight,No
+SPEKTRA-VIBRATION-CONTROL-SYSTEM,Vibration Control System,ระบบ Vibration Control System,Acoustic Material Testing,SPEKTRA Dresden,No
+PROFOUND-WOODPECKER-SERIES,Woodpecker Series,เครื่องมือ Woodpecker Series,Acoustic Material Testing,Profound,No
+ACOUSTIC-MEASUREMENT-ANALYSIS-AND-DOCUMENTATION,"Acoustic Measurement, Analysis and Documentation",การวัด การวิเคราะห์ และการจัดทำเอกสารเกี่ยวกับเสียง,Acoustic Software,Soundtec,No
+FEMTOOLS-FEMTOOLS-DYNAMICS,FEMtools Dynamics,เครื่องมือ FEMtools Dynamics,Acoustic Software,FEMtools,No
+FEMTOOLS-FEMTOOLS-FRAMEWORK,FEMtools Framework,เครื่องมือ FEMtools Framework,Acoustic Software,FEMtools,No
+FEMTOOLS-FEMTOOLS-MODEL-UPDATING,FEMtools Model Updating,เครื่องมือ FEMtools Model Updating,Acoustic Software,FEMtools,No
+FEMTOOLS-FEMTOOLS-OPTIMIZATION,FEMtools Optimization,เครื่องมือ FEMtools Optimization,Acoustic Software,FEMtools,No
+MAPPING-OF-SOUND-SOURCES-USING-THE-SOUNDFLOW-SENSO,Mapping of sound sources using theSoundFlowsensor,การทำแผนที่แหล่งกำเนิดเสียงโดยใช้SoundFlowsensor,Acoustic Software,Soundtec,No
+NOISEQC-NOISEQC,NoiseQC Production Control Software,NoiseQC Production Control Software (ต้องแปล),Acoustic Software,NoiseQC,Yes
+NOR277,Nor277 Tapping machine,เครื่องต๊าปเกลียว Nor277,Acoustic Software,Norsonic,No
+NOR850,Nor850 Measurement system: Sound power,Nor850 ระบบการวัด : พลังเสียง,Acoustic Software,Norsonic,No
+NORVIRTUAL-APP,NorVirtual App,แอป NorVirtual,Acoustic Software,Norsonic,No
+PDA-DYNAMIC-LOAD-TESTING,PDA & Dynamic Load Testing,PDA & Dynamic Load การทดสอบ,Acoustic Software,Profound,No
+PROFOUND-PDA-DLT-SERIES,PDA/DLT Series,เครื่องมือ PDA/DLT Series,Acoustic Software,Profound,No
+SONARCHITECT-SONARCHITECT,SONarchitect,เครื่องมือ SONarchitect,Acoustic Software,Sound of Numbers,No
+SAROOMA-DESKTOPAPP,Sarooma DesktopApp,เครื่องมือ Sarooma DesktopApp,Acoustic Software,Sarooma,No
+SAROOMA-MOBILEAPP,Sarooma MobileApp,เครื่องมือ Sarooma MobileApp,Acoustic Software,Sarooma,No
+SAROOMA-WEBAPP,Sarooma WebApp,เครื่องมือ Sarooma WebApp,Acoustic Software,Sarooma,No
+SOFTWARE-FOR-THE-RECORDING-OF-SOUND-AND-VIBRATION,Software for the recording of sound and vibration,ซอฟต์แวร์สำหรับการบันทึกเสียงและการสั่น,Acoustic Software,Soundtec,No
+SOUNDPLAN-NOISE-SIMULATION-SOFTWARE-2,SoundPLANessential,เครื่องมือ SoundPLANessential,Acoustic Software,SoundPLAN,No
+SOUNDPLAN-WORKPLACE-NOISE-ASSESSMENT-3,SoundPLANmanda,เครื่องมือ SoundPLANmanda,Acoustic Software,SoundPLAN,Yes
+SOUNDPLAN-NOISE-SIMULATION-SOFTWARE-1,SoundPLANnoise,เครื่องมือ SoundPLANnoise,Acoustic Software,SoundPLAN,Yes
+PROFOUND-VIBRA-5+,VIBRA 5+,เครื่องมือ VIBRA 5+,Acoustic Software,Profound,Yes
+VISUALIZATION-SIMULATION-AND-EVALUATION-OF-SOUND,"Visualization, simulation and evaluation of sound",การแสดงภาพ การจำลอง และการประเมินเสียง,Acoustic Software,Soundtec,No
+DBSEA-DBSEA-BASIC,dBSea Basic,เครื่องมือ dBSea Basic,Acoustic Software,dBSea,No
+DBSEA-DBSEA-SRI,dBSea SRI,เครื่องมือ dBSea SRI,Acoustic Software,dBSea,No
+DBSEA-DBSEA-V3,dBSea V3,เครื่องมือ dBSea V3,Acoustic Software,dBSea,No
+VISUALIZATION-SIMULATION-AND-EVALUATION-OF-SOUNDS,"visualization, simulation and evaluation of sounds",การสร้างภาพ การจำลอง และการประเมินเสียง,Acoustic Software,Soundtec,No
+NOR1261,Nor1261 Tripod adaptor,อแดปเตอร์ขาตั้งกล้อง Nor1261,Cables and Accessories,Norsonic,No
+NOR1262,"Nor1262 Tripod adaptor, adjustable",Nor1262 อะแดปเตอร์ขาตั้งกล้องแบบปรับได้,Cables and Accessories,Norsonic,No
+NOR1273,Nor1273 adaptor,อะแดปเตอร์ Nor1273,Cables and Accessories,Norsonic,No
+NOR1307,Nor1307 Tripod,ขาตั้งกล้อง Nor1307,Cables and Accessories,Norsonic,No
+NOR1434,"Nor1434 Windscreen, 90mm","กระจกบังลมNor1434, 90มม",Cables and Accessories,Norsonic,No
+NOR1438,Nor1438 Cable BNC/LEMO,สาย Nor1438 BNC/LEMO,Cables and Accessories,Norsonic,No
+NOR1441B,Nor1441B PC cable,สายเคเบิลคอมพิวเตอร์ Nor1441B,Cables and Accessories,Norsonic,No
+NOR1466,Nor1466 BNC to microdot adaptor,Nor1466 BNC เป็นอะแดปเตอร์ไมโครดอท,Cables and Accessories,Norsonic,No
+NOR1469,"Nor1469 Windscreen, 60mm",กระจกบังลม Nor1469 60มม,Cables and Accessories,Norsonic,No
+NOR1471,"Nor1471 Windscreen, with birdspikes",Nor1471 กระจกบังลมแบบมีเดือยนก,Cables and Accessories,Norsonic,No
+NOR1472,Nor1472 Windscreen,กระจกบังลมNor1472,Cables and Accessories,Norsonic,No
+NOR1480,"Nor1480 (1,5m) and Nor1481 (5m) Microdot cable",สายเคเบิลไมโครดอต Nor1480 (1.5 ม.) และ Nor1481 (5 ม.),Cables and Accessories,Norsonic,No
+NOR1489A,Nor1489A GSM modem data cable,สายเคเบิลข้อมูลโมเด็ม Nor1489A GSM,Cables and Accessories,Norsonic,No
+NOR340A,Nor340A Mains adaptor,อะแดปเตอร์หลัก Nor340A,Cables and Accessories,Norsonic,No
+NOR345B,Nor345B Mains adaptor,อะแดปเตอร์หลัก Nor345B,Cables and Accessories,Norsonic,No
+NOR4513B,Nor4513B AC out and PC cable,Nor4513B AC out และสาย PC,Cables and Accessories,Norsonic,No
+NOR4514A,Nor4514A AC output cable,สายเคเบิลเอาต์พุต AC Nor4514A,Cables and Accessories,Norsonic,No
+NOR4529,Nor4529 Windscreen,กระจกบังลมNor4529,Cables and Accessories,Norsonic,No
+NOR4562,Nor4562 2 m cable 4p LEMO 00 male to 3x microdot,สายเคเบิล Nor4562 ยาว 2 ม. 4p LEMO 00 ตัวผู้ถึง 3x ไมโครดอท,Cables and Accessories,Norsonic,No
+NOR4571,Nor4571 cable Lemo 7pin 1B to microdot male,สายเคเบิล Nor4571 Lemo 7pin 1B ถึงตัวผู้ไมโครดอท,Cables and Accessories,Norsonic,No
+NOR4576,Nor4576 Windscreen – large,Nor4576 กระจกบังลม – ใหญ่,Cables and Accessories,Norsonic,No
+24-CHANNEL-DATA-ACQUISITION-MODULE-FOR-DYNAMIC-SIG,24 channel data acquisition module for dynamic signals with 30 kHz bandwidth,โมดูลเก็บข้อมูล 24 ช่องสัญญาณสำหรับสัญญาณไดนามิกที่มีแบนด์วิดท์ 30 kHz,DAQ (Data Acquisition),Soundtec,No
+BUILDING-ACOUSTICS,Building acoustics,การสร้างเสียง,DAQ (Data Acquisition),Soundtec,No
+DETERMINE-THE-RPM-FROM-SOUND,Determine the RPM from sound,กำหนด RPM จากเสียง,DAQ (Data Acquisition),Soundtec,No
+END-OF-LINE-TESTING-FOR-SOUND-AND-VIBRATION,End of line testing for sound and vibration,สิ้นสุดการทดสอบเสียงและการสั่นสะเทือน,DAQ (Data Acquisition),Soundtec,No
+FURTHER-PRODUCTS,Further Products,สินค้าเพิ่มเติม,DAQ (Data Acquisition),Soundtec,No
+LIVEPAD,LivePad,ไลฟ์แพด,DAQ (Data Acquisition),Soundtec,No
+NOR1290,Nor1290 Sound intensity probe kit,ชุดโพรบวัดความเข้มเสียง Nor1290,DAQ (Data Acquisition),Norsonic,No
+NOR1297,Nor1297 Noise compass,Nor1297 เข็มทิศเสียงรบกวน,DAQ (Data Acquisition),Norsonic,No
+NOR1327B,Nor1327B Flight case,คดีเครื่องบิน Nor1327B,DAQ (Data Acquisition),Norsonic,No
+NOR1327C,Nor1327C Flight case,คดีเครื่องบิน Nor1327C,DAQ (Data Acquisition),Norsonic,No
+NOR1327D,Nor1327D Flight case,คดีเครื่องบิน Nor1327D,DAQ (Data Acquisition),Norsonic,No
+NOR1335A,Nor1335A Softbag,กระเป๋าผ้า Nor1335A,DAQ (Data Acquisition),Norsonic,No
+NOR1336,Nor1336 Rugged flight case for Nor277,กระเป๋าใส่เครื่องบินที่ทนทาน Nor1336 สำหรับ Nor277,DAQ (Data Acquisition),Norsonic,No
+NOR1346,Nor1346 Softbag for Nor145,ถุงผ้า Nor1346 สำหรับ Nor145,DAQ (Data Acquisition),Norsonic,No
+NOR263B,Nor263B Remote hand switch,Nor263B สวิตช์มือระยะไกล,DAQ (Data Acquisition),Norsonic,No
+ONE-CHANNEL-MEASUREMENT-RECORDINGS,One channel measurement recordings,การบันทึกการวัดช่องเดียว,DAQ (Data Acquisition),Soundtec,No
+PASS-BY-NOISE-MEASUREMENT-SYSTEM-ACCORDING-TO-ECE-,Pass-by noise measurement system according to ECE R 51,ระบบตรวจวัดเสียงรบกวนตาม ECE R 51,DAQ (Data Acquisition),Soundtec,No
+SENSORS-DATA-COLLECTION,Sensors & Data Collection,เซ็นเซอร์และการรวบรวมข้อมูล,DAQ (Data Acquisition),Soundtec,No
+SOUND-INTENSITY-MEASUREMENTS-USING-PP-OR-PU-PROBES,Sound intensity measurements using PP or PU probes,การวัดความเข้มของเสียงโดยใช้โพรบ PP หรือ PU,DAQ (Data Acquisition),Soundtec,No
+SOUND-POWER-MEASUREMENT-WITH-THE-SOUND-PRESSURE-ME,Sound power measurement with the sound pressure method,การวัดกำลังเสียงด้วยวิธีความดันเสียง,DAQ (Data Acquisition),Soundtec,No
+SOUND-PRESSURE-AND-SOUND-VELOCITY-SENSOR,Sound pressure and sound velocity sensor,ความดันเสียงและเซ็นเซอร์ความเร็วเสียง,DAQ (Data Acquisition),Soundtec,No
+SIZEUS-SITHOR-SIPPWORKBENCH,siZeus&siThor,siZeus&siThor,DAQ (Data Acquisition),Soundtec,No
+404,404,404 - อุปกรณ์วัดและทดสอบ,Environmental Monitoring,Profound,No
+NOISEMONITOR-PLUS,Advanced Noise Monitoring System,Advanced เสียงรบกวน เครื่องตรวจสอบing ระบบ,Environmental Monitoring,Convergence Instruments,No
+BEDROCK-BEDROCKI5STIPAMETER,BEDROCK ELITE i5,เครื่องมือ BEDROCK ELITE i5,Environmental Monitoring,Bedrock Elite,No
+NOISELOG,Environmental Noise Logger,Environmental เสียงรบกวน Logger,Environmental Monitoring,Convergence Instruments,No
+CONVERGENCE-NSRTW_MK4,NSRTW_mk4,เครื่องมือ NSRTW_mk4,Environmental Monitoring,Convergence Instruments,No
+CONVERGENCE-NSRT_MK4,NSRT_mk4,เครื่องมือ NSRT_mk4,Environmental Monitoring,Convergence Instruments,No
+NOR1020,Nor1020 NorXfer,Nor1020 นอร์เอ็กซ์เฟอร์,Environmental Monitoring,Norsonic,No
+NOR1026,Nor1026 NorReview,Nor1026 Norรีวิว,Environmental Monitoring,Norsonic,No
+NOR1051,Nor1051 NorConnect,Nor1051 NorConnect,Environmental Monitoring,Norsonic,No
+NOR1289,Nor1289 Adaptor 7 pin LEMO to 2x4pin LEMO,อะแดปเตอร์ Nor1289 7 พิน LEMO เป็น 2x4 พิน LEMO,Environmental Monitoring,Norsonic,No
+NOR1292,Nor1292 Triaxial geophone,Nor1292 จีโอโฟนแบบสามแกน,Environmental Monitoring,Norsonic,No
+NOR1340,Nor1340 Softbag for Nor150,กระเป๋าผ้า Nor1340 สำหรับ Nor150,Environmental Monitoring,Norsonic,No
+NOR1545,Nor1545 Noise monitoring terminal,Nor1545 เทอร์มินัลตรวจสอบสัญญาณรบกวน,Environmental Monitoring,Norsonic,No
+NOR4553,Nor4553 adapter cable,สายอะแดปเตอร์ Nor4553,Environmental Monitoring,Norsonic,No
+NOR4555,Nor4555 Triaxial cable,สายเคเบิลสามแกน Nor4555,Environmental Monitoring,Norsonic,No
+NOR4557,Nor4557 Mounting magnet,Nor4557 แม่เหล็กยึด,Environmental Monitoring,Norsonic,No
+NOR4561,Nor4561 cable,สาย Nor4561,Environmental Monitoring,Norsonic,No
+NOR4640,Nor4640 Thies Clima US weather station,Nor4640 Thies Clima สถานีตรวจอากาศของสหรัฐอเมริกา,Environmental Monitoring,Norsonic,No
+NORCLOUD,NorCloud – noise monitoring system,NorCloud – ระบบตรวจสอบเสียงรบกวน,Environmental Monitoring,Norsonic,No
+NORVIRTUAL,NorVirtual,นอร์เสมือน,Environmental Monitoring,Norsonic,No
+SPA-1000,Spectral Power Analyzer,Spectral Power เครื่องวิเคราะห์,Environmental Monitoring,SPEKTRA Dresden,No
+SPOTNOISE-SP008A,SpotNoise SP008A Noise Monitoring Terminal,เครื่องตรวจสอบ SpotNoise SP008A Noise Monitoring Terminal,Environmental Monitoring,SpotNoise,No
+PLACID-POFM-01,PLACID Optical Fiber Microphone System POFM-01,ระบบไมโครโฟนใยแก้วนำแสง PLACID POFM-01,Measurement Microphones,Placid Instruments,No
+MEASUREMENT-MICROPHONE-CARTRIDGES,Measurement microphone cartridges for Soundlevel meters & IEPE,การวัด ไมโครโฟน cartridges for เสียงlevel meters & IEPE,Microphones,Placid Instruments,No
+MEASUREMENT-MICROPHONE-SETS,Measurement microphone sets,การวัด ไมโครโฟน sets,Microphones,Placid Instruments,No
+NOR1216,Nor1216 Outdoor microphone,Nor1216 ไมโครโฟนกลางแจ้ง,Microphones,Norsonic,No
+NOR1217,Nor1217 Outdoor microphone,Nor1217 ไมโครโฟนกลางแจ้ง,Microphones,Norsonic,No
+NOR1218,Nor1218 Outdoor microphone,Nor1218 ไมโครโฟนกลางแจ้ง,Microphones,Norsonic,No
+NOR1225,Nor1225 Free-field microphone,Nor1225 ไมโครโฟนอิสระ,Microphones,Norsonic,No
+NOR1227,Nor1227 Free-field microphone,Nor1227 ไมโครโฟนอิสระ,Microphones,Norsonic,No
+NOR1228,Nor1228 Free-field microphone,Nor1228 ไมโครโฟนอิสระ,Microphones,Norsonic,No
+NOR1229,Nor1229 Free-field microphone,Nor1229 ไมโครโฟนอิสระ,Microphones,Norsonic,No
+NOR1239,Nor1239 Free-field microphone,Nor1239 ไมโครโฟนอิสระ,Microphones,Norsonic,No
+NOR1280,Nor1280 Microphone adaptor with guard ring,อะแดปเตอร์ไมโครโฟน Nor1280 พร้อมวงแหวนป้องกัน,Microphones,Norsonic,No
+NOR1323,Nor1323 Microphone tripod,Nor1323 ขาตั้งไมโครโฟน,Microphones,Norsonic,No
+NOR1330,Nor1330 Portable microphone stand,Nor1330 ขาตั้งไมโครโฟนแบบพกพา,Microphones,Norsonic,No
+NOR265A,Nor265A Microphone boom,Nor265A บูมไมโครโฟน,Microphones,Norsonic,No
+PLACID-PMNU21,PMNU21 - Measurement Microphones,เครื่องมือ PMNU21 - Measurement Microphones,Microphones,Placid Instruments,No
+PLACID-PMP20,PMP20 - Measurement Microphones,เครื่องมือ PMP20 - Measurement Microphones,Microphones,Placid Instruments,No
+PLACID-PMP21,PMP21 - Measurement Microphones,เครื่องมือ PMP21 - Measurement Microphones,Microphones,Placid Instruments,No
+PMP21,PMP21 Free Field Microphone,PMP21 Free Field ไมโครโฟน,Microphones,Placid Instruments,Yes
+PMP25,PMP25 Random Incidence Microphone,PMP25 Random Incidence ไมโครโฟน,Microphones,Placid Instruments,No
+PLACID-PMP41,PMP41 - Measurement Microphones,เครื่องมือ PMP41 - Measurement Microphones,Microphones,Placid Instruments,No
+PMP41,PMP41 Microphone Set,PMP41 ไมโครโฟน Set,Microphones,Placid Instruments,No
+CONVERGENCE-ACAM_64,ACAM_64,เครื่องมือ ACAM_64,Miscellaneous,Convergence Instruments,No
+APS-APS-113-AB,APS 113-AB,เครื่องมือ APS 113-AB,Miscellaneous,,No
+BEDROCK-BTB115,Bedrock Elite BTB115 Advanced Talkbox,Bedrock Elite BTB115 กล่องจำลองเสียงพูดขั้นสูง,Miscellaneous,Bedrock Elite,Yes
+BEDROCKELI-BTB115,Bedrock Elite BTB115 Advanced Talkbox,Bedrock Elite BTB115 Advanced Talkbox (ต้องแปล),Miscellaneous,Bedrock Elite,No
+BEDROCK-BTB65,Bedrock Elite BTB65 Talkbox,Bedrock Elite BTB65 กล่องจำลองเสียงพูด,Miscellaneous,Bedrock Elite,No
+BEDROCKELI-SB41,Bedrock Elite SB41,Bedrock Elite SB41 (ต้องแปล),Miscellaneous,Bedrock Elite,No
+BEDROCKELI-SB42,Bedrock Elite SB42,Bedrock Elite SB42 (ต้องแปล),Miscellaneous,Bedrock Elite,No
+BEDROCKELI-I10,Bedrock Elite i10,Bedrock Elite i10 (ต้องแปล),Miscellaneous,Bedrock Elite,Yes
+BEDROCK-BEDROCKI9CLASS1MEASURINGINSTRUMENT,Bedrock I9 Class 1 Measuring Instrument,เครื่องมือ Bedrock I9 Class 1 Measuring Instrument,Miscellaneous,Bedrock Elite,No
+BEDROCK-BEDROCKSM90CLASS1MEASURINGINSTRUMENT,Bedrock Sm90 Class 1 Measuring Instrument,เครื่องมือ Bedrock Sm90 Class 1 Measuring Instrument,Miscellaneous,Bedrock Elite,No
+BINAURAL-MICROPHONE-FOR-SPACIOUS-RECORDINGS,Binaural Microphone for spacious recordings,ไมโครโฟนแบบสองหูเพื่อการบันทึกที่กว้างขวาง,Miscellaneous,Soundtec,No
+SPEKTRA-CS-Q-LEAP-CALIBRATION-SYSTEM,CS Q-LEAP Calibration System,ระบบ CS Q-LEAP Calibration System,Miscellaneous,SPEKTRA Dresden,No
+SPEKTRA-CS18-ACOUSTIC-SYSTEM,CS18 Acoustic System,ระบบ CS18 Acoustic System,Miscellaneous,SPEKTRA Dresden,No
+SPEKTRA-CS18-MODAL-SYSTEM,CS18 Modal Analysis System,ระบบวิเคราะห์โมดอล CS18,Miscellaneous,Spektra,No
+SE2X,Electrodynamic Exciter,Electrodynamic ตัวกระตุ้น,Miscellaneous,SPEKTRA Dresden,No
+NOR1294,Nor1294 Phase verification coupler,Nor1294 ตัวเชื่อมต่อการยืนยันเฟส,Miscellaneous,Norsonic,No
+NOR1525,Nor1525 Calibration system,ระบบสอบเทียบ Nor1525,Miscellaneous,Norsonic,No
+NOR279,Nor279 Impact ball,บอลกระแทก Nor279,Miscellaneous,Norsonic,No
+SPEKTRA-Q-LEAP-SYSTEM,Q-LEAP Calibration System,ระบบสอบเทียบ Q-LEAP,Miscellaneous,Spektra,No
+SPEKTRA-SE-20,SE-20 Electrodynamic Vibration Exciter,เครื่องกระตุ้นความสั่นแบบอิเล็กโทรไดนามิก SE-20,Miscellaneous,SPEKTRA Dresden,Yes
+SPEKTRA-SE-21,SE-21 High-Frequency Electrodynamic Exciter,เครื่องกระตุ้นความสั่นความถี่สูงแบบอิเล็กโทรไดนามิก SE-21,Miscellaneous,SPEKTRA Dresden,No
+SPEKTRA-SE-2X,SE-2X Exciter Series,SE-2X ชุดอุปกรณ์กระตุ้น,Miscellaneous,SPEKTRA Dresden,No
+PLACID-ANGEL,Dosimeter PLACID Angel,เครื่องวัดปริมาณเสียง PLACID Angel,Personal Noise Dosimeters,Placid Instruments,Yes
+NOR1203,Nor1203 1/2″ insert voltage preamplifier,Nor1203 1/2″ ปรีแอมพลิฟายเออร์แรงดันไฟฟ้าแบบแทรก,Preamplifiers,Norsonic,No
+NOR1205,Nor1205 1/4″ insert voltage preamplifier,Nor1205 1/4″ ปรีแอมพลิฟายเออร์แรงดันไฟฟ้าแบบแทรก,Preamplifiers,Norsonic,No
+NOR1207,Nor1207 1/2″ ICP® microphone preamplifier,Nor1207 1/2″ ICP® ไมโครโฟนปรีแอมป์,Preamplifiers,Norsonic,No
+NOR1209,Nor1209 1/2″ microphone preamplifier,Nor1209 1/2″ ไมโครโฟนปรีแอมป์,Preamplifiers,Norsonic,No
+NOR1408A,Nor1408A Preamplifier extension cable,Nor1408A สายต่อขยายปรีแอมป์,Preamplifiers,Norsonic,No
+NOR1410A,Nor1410A Microphone preamplifier cable 2m,Nor1410A สายไมโครโฟนปรีแอมป์ 2 ม,Preamplifiers,Norsonic,No
+NOR1447,Nor1447 Preamplifier-BNC adaptor and microphone equivalent,Nor1447 Preamplifier-BNC อะแดปเตอร์และไมโครโฟนเทียบเท่า,Preamplifiers,Norsonic,No
+NOR4531,Nor4531/5 Preamplifier extension cable,Nor4531/5 สายต่อขยายปรีแอมป์,Preamplifiers,Norsonic,No
+PLACID-PNP21,PNP21 - Preamplifiers,เครื่องมือ PNP21 - Preamplifiers,Preamplifiers,Placid Instruments,No
+PLACID-PNP22,PNP22 - Preamplifiers,เครื่องมือ PNP22 - Preamplifiers,Preamplifiers,Placid Instruments,No
+PLACID-PNP41,PNP41 - Preamplifiers,เครื่องมือ PNP41 - Preamplifiers,Preamplifiers,Placid Instruments,No
+PNV12,PNV12 Preamplifier,PNV12 Preแอมพลิฟายเออร์,Preamplifiers,Placid Instruments,No
+PNV21,PNV21 Preamplifier,PNV21 Preแอมพลิฟายเออร์,Preamplifiers,Placid Instruments,No
+PREAMPLIFIERS,Preamplifiers for Sound level meters,Preแอมพลิฟายเออร์s for เสียง level meters,Preamplifiers,Placid Instruments,No
+BEDROCK-SM30,Bedrock Elite SM30 Sound Analyzer,Bedrock Elite SM30 เครื่องวิเคราะห์เสียง,Sound Analyzers,Bedrock Elite,No
+BEDROCK-BEDROCKSM50STIPAMETER,Bedrock Sm50 Stipa Meter,เครื่องวัด Bedrock Sm50 Stipa Meter,Sound Analyzers,Bedrock Elite,No
+NL-53,NL-53 Sound level meter,NL-53 เครื่องวัดระดับเสียง,Sound Analyzers,Norsonic,No
+NOR103,Nor103 Sound level meter,Nor103 เครื่องวัดระดับเสียง,Sound Analyzers,Norsonic,No
+NOR140,Nor140 Sound analyser,เครื่องวิเคราะห์เสียง Nor140,Sound Analyzers,Norsonic,No
+NOR1408,Nor1408/04 Large cable drum,Nor1408/04 ดรัมเก็บสายไฟขนาดใหญ่,Sound Analyzers,Norsonic,No
+NOR1451,"Nor1451 Windscreen, 60mm",กระจกบังลม Nor1451 60มม,Sound Analyzers,Norsonic,No
+NOR1456,Nor1456 TNC to microdot adaptor,อะแดปเตอร์ Nor1456 TNC เป็นไมโครดอท,Sound Analyzers,Norsonic,No
+NOR145,Room acoustics measurements with Nor145,การวัดเสียงในห้องด้วย Nor145,Sound Analyzers,Norsonic,Yes
+PLACID-SL-02,SL-02 - Sound Level Meters,เครื่องวัด SL-02 - Sound Level Meters,Sound Analyzers,Placid Instruments,No
+NOR150,Sound intensity measurements with Nor150,การวัดความเข้มของเสียงด้วย Nor150,Sound Analyzers,Norsonic,No
+APS-129,APS 129 Air-Bearing Shaker,APS 129 เครื่องเขย่าแบบแบริ่งอากาศ,Vibration & NVH Shakers,APS Dynamics,No
+APS-300,APS 300 Shaker,APS 300 เครื่องเขย่า,Vibration & NVH Shakers,APS Dynamics,No
+APS-APS-400,APS 400,เครื่องมือ APS 400,Vibration & NVH Shakers,,No
+APS-500,APS 500 Air-Bearing Shaker,APS 500 เครื่องเขย่าแบบแบริ่งอากาศ,Vibration & NVH Shakers,APS Dynamics,No
+APS-600,APS 600 Long-Stroke Shaker,APS 600 เครื่องเขย่าระยะยาว,Vibration & NVH Shakers,APS Dynamics,No
+APS-113,Electrodynamic Shaker,Electrodynamic เครื่องเขย่า,Vibration & NVH Shakers,APS Dynamics,No
+APS-400,Electrodynamic Shaker System,Electrodynamic เครื่องเขย่า ระบบ,Vibration & NVH Shakers,APS Dynamics,No
+APS-1128,High-Force Shaker,High-Force เครื่องเขย่า,Vibration & NVH Shakers,APS Dynamics,No
+PA-100L,Linear Power Amplifier,Linear Power แอมพลิฟายเออร์,Vibration & NVH Shakers,APS Dynamics,No
+APS-640,Medium-Force Shaker,Medium-Force เครื่องเขย่า,Vibration & NVH Shakers,APS Dynamics,No
+NOR1494,Nor1494 Loudspeaker cable,สายลำโพง Nor1494,Vibration & NVH Shakers,Norsonic,No
+NOR278,Nor278 Reference Sound Source,แหล่งกำเนิดเสียงอ้างอิง Nor278,Vibration & NVH Shakers,Norsonic,No
+NOR280,Nor280 Power amplifier,เพาเวอร์แอมป์ Nor280,Vibration & NVH Shakers,Norsonic,No
+NOR282,Nor282 Power amplifier,เพาเวอร์แอมป์ Nor282,Vibration & NVH Shakers,Norsonic,No
+NOR283,Nor283 Dodecahedron loudspeaker,Nor283 ลำโพง โดเดคาเฮดรอน,Vibration & NVH Shakers,Norsonic,No
+NOR286,Nor286 ORIGAMI impulse sound source,Nor286 ORIGAMI แหล่งกำเนิดเสียงอิมพัลส์,Vibration & NVH Shakers,Norsonic,No
+PA-100,PA-100 Power Amplifier,PA-100 เพาเวอร์แอมป์,Vibration & NVH Shakers,APS Dynamics,No
+PA-500-DM,PA-500-DM Power Amplifier,PA-500-DM เพาเวอร์แอมป์,Vibration & NVH Shakers,APS Dynamics,No
+SPEKTRA-VCS-SHAKER-CONTROL,Vibration Control System for Shakers,ระบบควบคุมการสั่นสะเทือนสำหรับ Shaker,Vibration & NVH Shakers,Spektra,No
+SPEKTRA-CV-05,CV-05 Vibration Calibrator,CV-05 เครื่องสอบเทียบการสั่นสะเทือน,Vibration Calibrators,SPEKTRA Dresden,No
+SPEKTRA-CV-10,CV-10 Vibration Calibrator,CV-10 เครื่องสอบเทียบการสั่นสะเทือน,Vibration Calibrators,SPEKTRA Dresden,No
+MMF(METRAM-VC20,MMF VC20 Vibration Calibrator,MMF VC20 Vibration Calibrator (ต้องแปล),Vibration Calibrators,MMF (Metra Mess- und Frequenztechnik),No
+MMF(METRAM-VC21,MMF VC21 Vibration Calibrator,MMF VC21 Vibration Calibrator (ต้องแปล),Vibration Calibrators,MMF (Metra Mess- und Frequenztechnik),No
+MMF(METRAM-VC21D,MMF VC21D Vibration Calibrator,MMF VC21D Vibration Calibrator (ต้องแปล),Vibration Calibrators,MMF (Metra Mess- und Frequenztechnik),No
+MMF(METRAM-VM100,MMF VM100 Vibration Analyzer,MMF VM100 Vibration Analyzer (ต้องแปล),Vibration Meters,MMF (Metra Mess- und Frequenztechnik),No
+MMF(METRAM-VM22,MMF VM22 Vibration Meter,MMF VM22 Vibration Meter (ต้องแปล),Vibration Meters,MMF (Metra Mess- und Frequenztechnik),No
+MMF(METRAM-VM23,MMF VM23 Vibration Meter,MMF VM23 Vibration Meter (ต้องแปล),Vibration Meters,MMF (Metra Mess- und Frequenztechnik),No
+NOR4641,Nor4641 Portable power backup solution,Nor4641 โซลูชันสำรองพลังงานแบบพกพา,Vibration Meters,Norsonic,No
+PDA-100,Portable Data Acquisition System,แบบพกพา Data Acquisition ระบบ,Vibration Meters,SPEKTRA Dresden,No
+VA-14,VA-14 Vibration Analyzer,เครื่องวิเคราะห์การสั่นสะเทือน VA-14,Vibration Meters,Norsonic,No
+CONVERGENCE-VSEW_MK4-8G,VSEW_mk4 8g,เครื่องมือ VSEW_mk4 8g,Vibration Meters,Convergence Instruments,No
+CV-10,Vibration Controller,การสั่นสะเทือน Controller,Vibration Meters,SPEKTRA Dresden,No
+S-TEST-LAB,Vibration Test Laboratory System,การสั่นสะเทือน Test Laboratory ระบบ,Vibration Meters,SPEKTRA Dresden,No
